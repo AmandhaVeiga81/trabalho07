@@ -36,9 +36,12 @@ h3{
 }
 
 .carrossel{
-   width: 1000%;   
-   margin-top: 30px;
+   width: 100%;
+   height: 100vh; /* ocupa toda a altura da tela */
+   object-fit: cover; /* corta a imagem sem deformar */
+   margin-top: 30px; /* por causa do menu fixo */
 }
+
 .logo{
     font-family: "Sofia", sans-serif;
     font-size: 40px;
